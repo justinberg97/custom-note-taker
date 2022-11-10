@@ -1,18 +1,17 @@
 const router = require('express').Router();
 
-router.post('/justin', (req, res) => {
-    console.log(req.body)
-    res.json('yes he is')
+const db = require('../utils/db');
+
+router.post('/notes', (req, res) => {
+  db.addNotes(req.body).then(notes => res.json(notes)).catch(error => console.log(error));
 })
 
-
-
-
-
-
-
-
-
+router.get('/notes', (req, res) => {
+console.log(db);
+    db.getNotes().then(data => {
+        res.json(JSON.parse(data))
+    })
+})
 
 
 
