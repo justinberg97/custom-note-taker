@@ -23,7 +23,14 @@ THEN I am presented with empty fields to enter a new note title and the note’s
 
 # Git Hub link
 
+https://github.com/justinberg97/custom-note-taker
+
 # Heroku Link
 
+https://custom-note-takerrr.herokuapp.com/
+
 # Screen Shot
+
+<img width="1440" alt="Screen Shot 2022-11-10 at 7 22 30 PM" src="https://user-images.githubusercontent.com/110484382/201240428-4fbc31f6-a6f0-4485-87e6-eb487c02a4f1.png">
+
 
